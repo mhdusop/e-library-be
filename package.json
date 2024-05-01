@@ -2,7 +2,7 @@
   "scripts": {
     "serve": "nodemon index.js",
     "postinstall": "prisma generate",
-    "init": "prisma db push && prisma generate"
+    "init": "prisma db push"
   },
   "type": "module",
   "dependencies": {
