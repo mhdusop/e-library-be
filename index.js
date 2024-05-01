@@ -1,11 +1,11 @@
 import express from 'express';
-import authRouter from '../routes/auth.js';
+import authRouter from './routes/auth.js';
 import cors from 'cors';
-import config from '../config/app.js';
-import SocketLoader from '../loaders/socket.js';
-import bookRoute from '../routes/books.js';
-import orderRoute from '../routes/order.js';
-import authorRoute from '../routes/author.js';
+import config from './config/app.js';
+import SocketLoader from './loaders/socket.js';
+import bookRoute from './routes/books.js';
+import orderRoute from './routes/order.js';
+import authorRoute from './routes/author.js';
 
 const app = express();
 
