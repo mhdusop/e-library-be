@@ -18,6 +18,8 @@ app.use(bookRoute);
 app.use(orderRoute);
 app.use(authorRoute);
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 app.listen(config.APP_PORT, () => {
     console.log(`Server Activated On Port ${config.APP_PORT}`);
 });
